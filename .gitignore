@@ -1,0 +1,34 @@
+# Backup zip files
+*.zip
+
+# Keil uVision temporary files
+*.uvguix.*
+*.uvgui.*
+*.uvgui_*
+*.bak
+*.tmp
+*.log
+
+# Keil build output
+Objects/
+Listings/
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.o
+*.d
+*.crf
+*.dep
+*.htm
+*.lnp
+
+# STM32CubeIDE build folders
+Debug/
+Release/
+
+# OS files
+.DS_Store
+Thumbs.db
