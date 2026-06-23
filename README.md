@@ -140,7 +140,7 @@ TB6612FNG 用來控制左右兩顆 DC 馬達的轉速與正反轉。
 
 | TB6612FNG 腳位 | STM32 腳位 | CubeMX 功能   | 說明          |
 | ------------ | -------- | ----------- | ----------- |
-| PWMA         | PA6      | TIM3_CH1    | 左輪 PWM 速度控制 |
+| PWMA         | PA15      | TIM3_CH1    | 左輪 PWM 速度控制 |
 | AIN1         | PA0      | GPIO_Output | 左輪方向控制 1    |
 | AIN2         | PA1      | GPIO_Output | 左輪方向控制 2    |
 
@@ -148,7 +148,7 @@ TB6612FNG 用來控制左右兩顆 DC 馬達的轉速與正反轉。
 
 | TB6612FNG 腳位 | STM32 腳位 | CubeMX 功能   | 說明          |
 | ------------ | -------- | ----------- | ----------- |
-| PWMB         | PA15     | TIM2_CH1    | 右輪 PWM 速度控制 |
+| PWMB         | PA6      | TIM2_CH1     | 右輪 PWM 速度控制 |
 | BIN1         | PB0      | GPIO_Output | 右輪方向控制 1    |
 | BIN2         | PB1      | GPIO_Output | 右輪方向控制 2    |
 
